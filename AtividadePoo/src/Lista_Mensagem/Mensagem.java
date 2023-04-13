@@ -12,11 +12,11 @@ public class Mensagem {
     }
     
     public static String escolherOpcao(String[] opcoes) {
-        return (String) JOptionPane.showInputDialog(null, "Escolha uma op��o:", "Op��es", JOptionPane.PLAIN_MESSAGE, null, opcoes, opcoes[0]);
+        return (String) JOptionPane.showInputDialog(null, "Escolha uma opcao:", "Opcoes", JOptionPane.PLAIN_MESSAGE, null, opcoes, opcoes[0]);
     }
     
     public static int mostrarConfirmacao(String mensagem) {
-        return JOptionPane.showConfirmDialog(null, mensagem, "Confirma��o", JOptionPane.YES_NO_OPTION);
+        return JOptionPane.showConfirmDialog(null, mensagem, "Confirmacao", JOptionPane.YES_NO_OPTION);
     }
 }
 

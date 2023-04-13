@@ -30,13 +30,13 @@ public class PainelCadastrarVendedor extends JPanel {
         txtCpf = new JTextField();
         add(txtCpf);
         
-        JLabel lblSalario = new JLabel("Sal�rio:");
+        JLabel lblSalario = new JLabel("Salario:");
         add(lblSalario);
         
         txtSalario = new JTextField();
         add(txtSalario);
         
-        JLabel lblComissao = new JLabel("Comiss�o:");
+        JLabel lblComissao = new JLabel("Comissao:");
         add(lblComissao);
         
         txtComissao = new JTextField();
@@ -53,7 +53,6 @@ public class PainelCadastrarVendedor extends JPanel {
     }
 
 	public void limparCampos() {
-		// TODO Auto-generated method stub
 		
 	}
 

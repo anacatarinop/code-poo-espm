@@ -30,7 +30,7 @@ public class PainelCadastrarGerente extends JPanel {
         txtCpf = new JTextField(20);
         add(txtCpf);
 
-        JLabel lblSalario = new JLabel("Sal�rio:");
+        JLabel lblSalario = new JLabel("Salario:");
         add(lblSalario);
 
         txtSalario = new JTextField(20);
