@@ -8,9 +8,9 @@ Bem-vindo ao repositório da matéria de Programação Orientada a Objetos da ES
 
 ## 🛠️ Ferramentas Utilizadas
 
-- **Java plugin**: Plugin para Java
-- **VSCode**: Editor de código extensível e de propósito geral
-- **Eclipse**: Programa desenvolvido originalmente no mesmo
+- [**Java plugin**](https://github.com/halcyon/asdf-java): Plugin para Java
+- [**VSCode**](https://code.visualstudio.com): Editor de código extensível e de propósito geral
+- [**Eclipse**](https://www.eclipse.org/downloads/): Programa desenvolvido originalmente no mesmo
 
 ### 🎨 Ícone
 
