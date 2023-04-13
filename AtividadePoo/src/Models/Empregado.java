@@ -16,6 +16,6 @@ public abstract class Empregado extends Pessoa {
     
     @Override
     public String toString() {
-        return super.toString() + "\nSal�rio: " + salario;
+        return super.toString() + "\nSalario: " + salario;
     }
 }

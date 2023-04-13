@@ -19,6 +19,6 @@ public class Vendedor extends Empregado {
     
     @Override
     public String toString() {
-        return super.toString() + "\nCargo: Vendedor" + "\nComiss�o: " + comissao;
+        return super.toString() + "\nCargo: Vendedor" + "\nComissao: " + comissao;
     }
 }

@@ -66,7 +66,7 @@ public class ProgramaCadastro {
         
         int opcao;
         do {
-            opcao = Integer.parseInt(JOptionPane.showInputDialog("Escolha uma op��o:\n"
+            opcao = Integer.parseInt(JOptionPane.showInputDialog("Escolha uma opcao:\n"
                     + "1. Cadastrar Empregado\n"
                     + "2. Cadastrar Cliente\n"
                     + "3. Pesquisar\n"
@@ -77,7 +77,7 @@ public class ProgramaCadastro {
             
             switch (opcao) {
                 case 1:
-                    int opcaoEmpregado = Integer.parseInt(JOptionPane.showInputDialog("Escolha uma op��o:\n"
+                    int opcaoEmpregado = Integer.parseInt(JOptionPane.showInputDialog("Escolha uma opcao:\n"
                             + "1. Cadastrar Gerente\n"
                             + "2. Cadastrar Vendedor"));
                     
@@ -132,7 +132,7 @@ public class ProgramaCadastro {
                                                 + "Tipo: Cliente");
                                     }
                                 } else {
-                                    JOptionPane.showMessageDialog(null, "Pessoa n�o encontrada!");
+                                    JOptionPane.showMessageDialog(null, "Pessoa nao encontrada!");
                                 }
                             }
                             break;
@@ -163,7 +163,7 @@ public class ProgramaCadastro {
                                 if (resultado) {
                                     JOptionPane.showMessageDialog(null, "Pessoa removida com sucesso!");
                                 } else {
-                                    JOptionPane.showMessageDialog(null, "Pessoa n�o encontrada!");
+                                    JOptionPane.showMessageDialog(null, "Pessoa nao encontrada!");
                                 }
                             }
                             break;
@@ -173,7 +173,7 @@ public class ProgramaCadastro {
                             break;
                             
                         default:
-                            JOptionPane.showMessageDialog(null, "Op��o inv�lida!");
+                            JOptionPane.showMessageDialog(null, "Opcao invalida!");
                             break;
                     }
                 } while (opcao != 7);

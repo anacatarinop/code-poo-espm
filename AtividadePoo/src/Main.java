@@ -17,7 +17,7 @@ public class Main {
         int opcao;
         do {
             opcao = Integer.parseInt(JOptionPane.showInputDialog(null,
-                    "Escolha uma opera��o:\n"
+                    "Escolha uma operacao:\n"
                             + "1. Cadastrar Empregado\n"
                             + "2. Cadastrar Cliente\n"
                             + "3. Pesquisar\n"
@@ -90,7 +90,7 @@ public class Main {
                                         + "Tipo: Cliente");
                             }
                         } else {
-                            JOptionPane.showMessageDialog(null, "Pessoa n�o encontrada!");
+                            JOptionPane.showMessageDialog(null, "Pessoa nao encontrada!");
                         }
                         painelPesquisar.limparCampos();
                     }
@@ -107,7 +107,7 @@ public class Main {
                     if (empregados.length() > 0) {
                         JOptionPane.showMessageDialog(null, empregados.toString() + "Tipo: Empregado");
                     } else {
-                        JOptionPane.showMessageDialog(null, "N�o h� empregados cadastrados!");
+                        JOptionPane.showMessageDialog(null, "Nao ha empregados cadastrados!");
                     }
                     break;
 
@@ -122,7 +122,7 @@ public class Main {
                     if (clientes.length() > 0) {
                         JOptionPane.showMessageDialog(null, clientes.toString() + "Tipo: Cliente");
                     } else {
-                        JOptionPane.showMessageDialog(null, "N�o h� clientes cadastrados!");
+                        JOptionPane.showMessageDialog(null, "Nao ha clientes cadastrados!");
                     }
                     break;
 
@@ -139,7 +139,7 @@ public class Main {
                             JOptionPane.showMessageDialog(null, "Pessoa removida com sucesso!");
                         }
                     } else {
-                        JOptionPane.showMessageDialog(null, "Pessoa n�o encontrada!");
+                        JOptionPane.showMessageDialog(null, "Pessoa nao encontrada!");
                     }
                     break;
 
@@ -148,7 +148,7 @@ public class Main {
                     break;
 
                 default:
-                    JOptionPane.showMessageDialog(null, "Op��o inv�lida!");
+                    JOptionPane.showMessageDialog(null, "Opcao invalida!");
                     break;
             }
         } while (opcao != 7);
